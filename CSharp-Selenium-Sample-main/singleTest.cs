@@ -40,10 +40,10 @@ using System;
                 Thread.Sleep(2000);
 
                 // Enter your login email id
-                driver.FindElement(By.Id("email")).SendKeys("shubhamr@lambdatest.com");
+                driver.FindElement(By.Id("email")).SendKeys("Enter Email");
 
                 // Enter your login password
-                driver.FindElement(By.Id("password")).SendKeys("Gmail@123");
+                driver.FindElement(By.Id("password")).SendKeys("Enter password");
                 driver.FindElement(By.Id("login-button")).SendKeys(Keys.Enter);
 
                 Thread.Sleep(20000);
